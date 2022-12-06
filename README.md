@@ -1,4 +1,4 @@
-# Sudoku-solver
+# Sudoku solver using backtracking
 
 This program will solve sudoku boards, considering that the board configuration is valid, otherwise no error will be raised but the game won't be solved.
 
