@@ -10,6 +10,11 @@ board = [
     [0,4,9,2,0,6,0,0,7]
 ]
 
+'''
+Since in sudoku you have digits from 1-9, i used "0" to fill the otherwise blank spaces in the game,
+the program then checks for these 0s and replaces them with valid answers
+'''
+
 def solve(bo):
     find = find_empty(bo)
     if not find:
