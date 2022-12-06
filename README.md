@@ -2,9 +2,9 @@
 
 This program will solve sudoku boards, considering that the board configuration is valid, otherwise no error will be raised but the game won't be solved.
 
-This program can be considered to be a basic form of machine learning since
+This program can be considered to be a basic form of machine learning.
 
-And attached the game board and the output of the program which prints the inital board and it's solution
+And attached the game board and the output of the program which prints the inital board and it's solution:
 
 ![sudoku board](https://user-images.githubusercontent.com/118382269/206036872-411be0b3-b644-4c16-bd8f-69ebe0f08560.JPG)
 
