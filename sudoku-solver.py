@@ -47,8 +47,9 @@ def valid(bo, num, pos) :
          
          return False
 
- box_x = pos[1] // 3          #check box
+ box_x = pos[1] // 3         
  box_y = pos[0] // 3
+ #check boxes of 3    
  
  for i in range(box_y * 3 , box_y * 3 +3):
    
@@ -59,11 +60,11 @@ def valid(bo, num, pos) :
 
 
 def print_board(bo):
-    for i in range(len(bo)): #! 
+    for i in range(len(bo)):  
         
         if i % 3 == 0 and i != 0:
             print("---------------------------------")
-        for j in range(len(bo)):  #pozitia for
+        for j in range(len(bo)):  #for the position
             
             if j % 3 == 0 and j != 0:
                 print( " | ", end = " ")
@@ -76,7 +77,7 @@ print_board(board)
 
 def find_empty(bo):
     for i in range(len(bo)):
-        for j in range(len(bo[0])): #  0 pt length of each row
+        for j in range(len(bo[0])): #  0 for the length of each row
             if bo[i][j] == 0:
                 return(i, j) #return tuple
     return None
